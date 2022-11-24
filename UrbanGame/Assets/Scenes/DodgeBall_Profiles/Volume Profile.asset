@@ -109,7 +109,7 @@ MonoBehaviour:
     value: 1
   indensity:
     overrideState: 1
-    value: 0.465
+    value: 0.456
   colorTint:
     overrideState: 1
     value: {r: 1, g: 1, b: 1, a: 1}
@@ -212,7 +212,7 @@ MonoBehaviour:
     value: 1
   edgeWidth:
     overrideState: 1
-    value: 0.25
+    value: 0.63
   edgeColor:
     overrideState: 0
     value: {r: 0, g: 0, b: 0, a: 1}
@@ -241,6 +241,34 @@ MonoBehaviour:
   brightness:
     overrideState: 1
     value: -0.16
+--- !u!114 &-1677037843262047544
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e84cf76f41f4f7459de554628a5a26b, type: 3}
+  m_Name: ColorReplace
+  m_EditorClassIdentifier: 
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  FromColor:
+    overrideState: 1
+    value: {r: 0.8679245, g: 0.63374865, b: 0.63374865, a: 1}
+  ToColor:
+    overrideState: 1
+    value: {r: 0, g: 0.8, b: 0, a: 1}
+  Range:
+    overrideState: 0
+    value: 0.2
+  Fuzziness:
+    overrideState: 0
+    value: 0.5
 --- !u!114 &-687851689283902920
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -299,6 +327,8 @@ MonoBehaviour:
   - {fileID: 5711780946882985137}
   - {fileID: 6202366168531132137}
   - {fileID: 7516648376620656018}
+  - {fileID: -1677037843262047544}
+  - {fileID: 3175598342149156905}
 --- !u!114 &33230902818859718
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -348,7 +378,7 @@ MonoBehaviour:
     value: 48
   intensityX:
     overrideState: 1
-    value: 0.687
+    value: 0.67
   intensityY:
     overrideState: 0
     value: 1
@@ -398,7 +428,7 @@ MonoBehaviour:
     value: 1
   edgeWidth:
     overrideState: 1
-    value: 0.38
+    value: 1.1
   edgeColor:
     overrideState: 0
     value: {r: 0, g: 0, b: 0, a: 1}
@@ -553,6 +583,28 @@ MonoBehaviour:
     value: 2
   flowSpeed:
     overrideState: 0
+    value: 1
+--- !u!114 &3175598342149156905
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efb9c856103a46543a82133472d02472, type: 3}
+  m_Name: ColorAdjustmentLensFilter
+  m_EditorClassIdentifier: 
+  active: 0
+  enabled:
+    overrideState: 1
+    value: 1
+  LensColor:
+    overrideState: 1
+    value: {r: 1, g: 0, b: 0.49531317, a: 1}
+  Indensity:
+    overrideState: 1
     value: 1
 --- !u!114 &4208542741116230051
 MonoBehaviour:
@@ -740,8 +792,8 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   gradingMode:
-    overrideState: 0
-    value: 1
+    overrideState: 1
+    value: 2
   externalLut:
     overrideState: 0
     value: {fileID: 0}
@@ -787,8 +839,8 @@ MonoBehaviour:
     overrideState: 1
     value: 9
   saturation:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 3
   brightness:
     overrideState: 0
     value: 0
@@ -796,8 +848,8 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   contrast:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 7
   mixerRedOutRedIn:
     overrideState: 0
     value: 100
@@ -827,13 +879,13 @@ MonoBehaviour:
     value: 100
   lift:
     overrideState: 0
-    value: {x: 1, y: 1, z: 1, w: 0}
+    value: {x: 0.77384937, y: 0.65145594, z: 1, w: 0}
   gamma:
     overrideState: 0
-    value: {x: 1, y: 1, z: 1, w: 0}
+    value: {x: 0.8214144, y: 0.7971911, z: 1, w: 0}
   gain:
     overrideState: 0
-    value: {x: 1, y: 1, z: 1, w: 0}
+    value: {x: 1, y: 0.8947329, z: 0.9870077, w: 0}
   masterCurve:
     overrideState: 0
     value:
